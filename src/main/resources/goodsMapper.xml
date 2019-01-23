@@ -5,7 +5,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <mapper namespace="org.ljy.domain.Goods">
 	<sql id="totalColumn">goods_id,goods_type,goods_name,price,discount,goods_image,shop_id</sql>
 	
-	<sql id="totalVar">#{goodsID},#{goodsType},#{goodsName},#{price},#{discount},#{image},#{shopID}</sql>
+	<sql id="totalVar">#{goodsID},#{goodsType},#{goodsName},#{price},#{diiscount},#{image},#{shopID}</sql>
 	
 	<insert id="addGoods" parameterType="org.ljy.domain.Goods">
 		insert into goods(

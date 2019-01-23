@@ -43,8 +43,8 @@
 						<c:when test="${sessionScope.user==null}">
 							<div id="div_top_user_operate">
 								<label>你好，请</label> <a id="user_info_login"
-									href="/OnlineShop/user_login">登录</a> <a id="user_info_reg"
-									href="/OnlineShop/user_reg">注册</a> 
+									href="/SchoolOnlineShop/user_login">登录</a> <a id="user_info_reg"
+									href="/SchoolOnlineShop/user_reg">注册</a> 
 							</div>
 						</c:when>
 					</c:choose>
